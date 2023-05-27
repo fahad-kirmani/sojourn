@@ -588,9 +588,16 @@ img {
 }
 
 @media screen and (max-width: 600px) {
+  .mapcont{
+    .maptxt{
+      p{
+        width:92%;
+      }
+    }
+  }
   .container{
     p{
-      width: 100%;
+      width: 92% !important;
     }
   }
   .abt-grid{
